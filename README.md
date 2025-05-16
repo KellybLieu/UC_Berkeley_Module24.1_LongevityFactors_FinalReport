@@ -35,26 +35,19 @@ Key negative longevity factors were consistent across both genders, highlighting
 
 These four factors had the greatest negative impact, with others trailing significantly.
 <br/><br/>
-FEATURE ENGINEERING<br/>
-The next sequence of steps is to perform feature engineering to prepare my dataset for building a model. Below I will start with a copy of the previous dataframe and perform the following:
-<li>Identify categorical variables</li>
-<li>Use one-hot encoder on categorical features</li>
-<li>Create interaction terms (multiply factor and strength of science)</li>
-<li>Create polynomial features and create a dataframe (except target col)</li>
-<li>Create combined original dataframe with polynomial dataframe</li>
-<li>Use StandardScaler to scale all my features (except target col)</li>
-<li>Add back target column and I am ready to build my model</li>
-<br/>
+
 TECHNIQUES FOR CAPSTONE <br/>
 Exploratory Data Analysis (EAD) and Visualize Results
 Feature Engineering
-Fit and Train Multiple Models
-Compare Models Using GridSearchCV
-Choose the Best Model
-Perform Hyperparameter Tuning
-Choose the Best Features
-Visualize Results of Predictive Analysis
+Fit and Train Multiple Models: linear regression, ridge, lasso, random forest, and gradient boosting
+Compare and Choose the Best Model
+Perform Hyperparameter Tuning Using GridSearchCV
+Perform Optimization with Random Search
+Visualize Results of Model Performance
 <br/><br/>
+SUMMARY OF FINDINGS<br/>
+Among the five machine learning models evaluated, the Gradient Boosting achieved the best performance with the lowest test RMSE and highest R² score, indicating strong predictive accuracy and generalization. Random Forest Regressor was closely following Gradient Boosting in both metrics. The Linear, Lasso, and Ridge Regression models showed weak performance, likely due to excessive coefficient shrinkage and had minimal benefit from regularization. Overall, ensemble methods (Random Forest and Gradient Boosting) outperformed linear models, highlighting their effectiveness in capturing complex patterns in the data. Futher hypertuning of the best model improved its performance by almost 20%, which suggests that hypertuning is beneficial and may have a positive impact on model performance.Visualization charts are included to cleary show comparisons between the models.
+<br/>
 PERSONAL SUCCESS MEASURES <br/>
 	1. Did I use data that I was interested in?
 	2. Did my model answer my questions to help me further understanding of the topic?
