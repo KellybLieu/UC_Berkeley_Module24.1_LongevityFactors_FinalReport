@@ -2,7 +2,7 @@
 Author: Kelly Lieu <br/>
 
 BACKGROUND <br/>
-My goal is for this capstone is to learn and practice how to apply AI/ML principles with storytelling data visualization techniques. It was important to me to choose a dataset that was easy to obtain and a topic that I can learn from to apply at home or at work. The data comes from Kaggle called, "Longevity Factors." 
+My goal is for this capstone is to learn and practice how to apply ML/AI techniques with data visualization tools. It was important to me to choose a dataset that was easy to obtain and a topic that I can learn from to apply at home or at work. The data comes from Kaggle called, "Longevity Factors." 
 
 WE WILL EXPLORE <br/>
 What longevity factors provide most gain in years of life?
@@ -18,24 +18,21 @@ Given the inconclusive initial results, a secondary analysis was conducted to as
 
 The top science-backed positive longevity factors included: <br/>
 
-<ol>A combined healthy lifestyle (non-smoking, regular exercise, healthy eating)</ol>
-<ol>Healthy eating</ol>
-<ol>A good marriage</ol>
-<ol>Favorable genetics</ol>
-<ol>Higher income</ol>
-C<ol>ancer avoidance</ol>
+<li>A combined healthy lifestyle (non-smoking, regular exercise, healthy eating)</li>
+<li>Healthy eating</li>
+<li>A good marriage</li>
+<li>Favorable genetics</li>
+<li>Higher income</li>
+<li>Cancer avoidance</li>
 
 Gender-specific analysis required additional data cleaning and normalization. Results showed substantial overlap in top factors across genders, though some differences emerged: for men, “spending time with women” ranked #7, while for women, “having a dog” appeared in the top 10.
 
 Key negative longevity factors were consistent across both genders, highlighting universal risks:
 
-Mental illness
-
-Smoking
-
-Obesity
-
-Heavy alcohol use
+<li>Mental illness</li>
+<li>Smoking</li>
+<li>Obesity</li>
+<li>Heavy alcohol use</li>
 
 These four factors had the greatest negative impact, with others trailing significantly.
 <br/>
