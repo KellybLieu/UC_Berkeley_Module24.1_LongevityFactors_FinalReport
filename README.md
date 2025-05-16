@@ -39,6 +39,7 @@ These four factors had the greatest negative impact, with others trailing signif
 TECHNIQUES FOR CAPSTONE <br/>
 Exploratory Data Analysis (EAD) and Visualize Results<br/>
 Feature Engineering<br/>
+Build a Simple Model<br/>
 Fit and Train Multiple Models: linear regression, ridge, lasso, random forest, and gradient boosting<br/>
 Compare and Choose the Best Model<br/>
 Perform Hyperparameter Tuning Using GridSearchCV<br/>
