@@ -10,13 +10,13 @@ What factors provide the most gain in years of life for females?
 What are the top features based on the weighted impact of strength of science on years?
 How do the stronger science features rank against the suggestive features?
 What other insights can I derive from the data?
-
+<br/>
 SUMMARY OF EAD FINDINGS <br/>
 The initial exploratory data analysis (EAD) involved loading and cleaning the dataset, identifying missing values, and removing irrelevant columns such as comments, notes, sources, and IDs. Visualization through histograms revealed that most longevity effects ranged from 2 to 6 years, with a few extreme negative outliers (e.g., -25 years). The majority of factors had weak scientific backing, and further statistical exploration (boxplots, pairplots) yielded limited insights due to the dataset’s low dimensionality and lack of strong correlations.
-
+<br/>
 Given the inconclusive initial results, a secondary analysis was conducted to assess the relationship between longevity factors and scientific strength, as well as to explore gender-based differences. A weighted impact score was calculated by multiplying the years gained/lost by the science strength rating (1–3), offering a clearer picture of each factor’s relative importance.
-
-The top science-backed positive longevity factors included: <br/>
+<br/>
+The top science-backed positive longevity factors included:
 
 <li>A combined healthy lifestyle (non-smoking, regular exercise, healthy eating)</li>
 <li>Healthy eating</li>
@@ -24,21 +24,19 @@ The top science-backed positive longevity factors included: <br/>
 <li>Favorable genetics</li>
 <li>Higher income</li>
 <li>Cancer avoidance</li>
-
+<br/>
 Gender-specific analysis required additional data cleaning and normalization. Results showed substantial overlap in top factors across genders, though some differences emerged: for men, “spending time with women” ranked #7, while for women, “having a dog” appeared in the top 10.
 
 Key negative longevity factors were consistent across both genders, highlighting universal risks:
-
 <li>Mental illness</li>
 <li>Smoking</li>
 <li>Obesity</li>
 <li>Heavy alcohol use</li>
 
 These four factors had the greatest negative impact, with others trailing significantly.
-<br/>
+<br/><br/>
 FEATURE ENGINEERING<br/>
-The next sequence of steps is to perform feature engineering to prepare my dataset for building a model. Below I will start with a copy of the previous dataframe and perform the following:<br/>
-
+The next sequence of steps is to perform feature engineering to prepare my dataset for building a model. Below I will start with a copy of the previous dataframe and perform the following:
 <li>Identify categorical variables</li>
 <li>Use one-hot encoder on categorical features</li>
 <li>Create interaction terms (multiply factor and strength of science)</li>
