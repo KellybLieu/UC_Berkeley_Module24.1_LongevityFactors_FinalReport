@@ -3,14 +3,14 @@ Author: Kelly Lieu <br/>
 
 BACKGROUND <br/>
 My goal is for this capstone is to learn and practice how to apply ML/AI techniques with data visualization tools. It was important to me to choose a dataset that was easy to obtain and a topic that I can learn from to apply at home or at work. The data comes from Kaggle called, "Longevity Factors." 
-
+<br/>
 WE WILL EXPLORE <br/>
 What longevity factors provide most gain in years of life?
 What factors provide the most gain in years of life for females?
 What are the top features based on the weighted impact of strength of science on years?
 How do the stronger science features rank against the suggestive features?
 What other insights can I derive from the data?
-<br/>
+<br/><br/>
 SUMMARY OF EAD FINDINGS <br/>
 The initial exploratory data analysis (EAD) involved loading and cleaning the dataset, identifying missing values, and removing irrelevant columns such as comments, notes, sources, and IDs. Visualization through histograms revealed that most longevity effects ranged from 2 to 6 years, with a few extreme negative outliers (e.g., -25 years). The majority of factors had weak scientific backing, and further statistical exploration (boxplots, pairplots) yielded limited insights due to the dataset’s low dimensionality and lack of strong correlations.
 <br/>
