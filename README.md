@@ -46,7 +46,9 @@ Perform Optimization with Random Search
 Visualize Results of Model Performance
 <br/><br/>
 SUMMARY OF FINDINGS<br/>
-Among the five machine learning models evaluated, the Gradient Boosting achieved the best performance with the lowest test RMSE and highest R² score, indicating strong predictive accuracy and generalization. Random Forest Regressor was closely following Gradient Boosting in both metrics. The Linear, Lasso, and Ridge Regression models showed weak performance, likely due to excessive coefficient shrinkage and had minimal benefit from regularization. Overall, ensemble methods (Random Forest and Gradient Boosting) outperformed linear models, highlighting their effectiveness in capturing complex patterns in the data. Futher hypertuning of the best model improved its performance by almost 20%, which suggests that hypertuning is beneficial and may have a positive impact on model performance.Visualization charts are included to cleary show comparisons between the models.
+Among the five machine learning models evaluated, the Gradient Boosting achieved the best performance with the lowest test RMSE and highest R² score, indicating strong predictive accuracy and generalization. Random Forest Regressor was closely following Gradient Boosting in both metrics. The Linear, Lasso, and Ridge Regression models showed weak performance, likely due to excessive coefficient shrinkage and had minimal benefit from regularization. Overall, ensemble methods (Random Forest and Gradient Boosting) outperformed linear models, highlighting their effectiveness in capturing complex patterns in the data. Futher hypertuning of the best model improved its performance by almost 20%, which suggests that hypertuning is beneficial and may have a positive impact on model performance.Visualization charts are included to cleary show comparisons between the models. In conclusion, when and if I have new data in the future, I can use this model to make predictions to identify the longevity of the subject.
+
+<br/>
 <br/>
 PERSONAL SUCCESS MEASURES <br/>
 	1. Did I use data that I was interested in?
