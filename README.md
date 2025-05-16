@@ -3,7 +3,7 @@ Author: Kelly Lieu <br/>
 
 BACKGROUND <br/>
 My goal is for this capstone is to learn and practice how to apply ML/AI techniques with data visualization tools. It was important to me to choose a dataset that was easy to obtain and a topic that I can learn from to apply at home or at work. The data comes from Kaggle called, "Longevity Factors." 
-<br/>
+<br/><br/>
 WE WILL EXPLORE <br/>
 What longevity factors provide most gain in years of life?
 What factors provide the most gain in years of life for females?
@@ -44,8 +44,7 @@ The next sequence of steps is to perform feature engineering to prepare my datas
 <li>Create combined original dataframe with polynomial dataframe</li>
 <li>Use StandardScaler to scale all my features (except target col)</li>
 <li>Add back target column and I am ready to build my model</li>
-<br/>
-<br/>
+<br/><br/>
 TECHNIQUES FOR CAPSTONE <br/>
 Exploratory Data Analysis (EAD) and Visualize Results
 Feature Engineering
@@ -55,13 +54,12 @@ Choose the Best Model
 Perform Hyperparameter Tuning
 Choose the Best Features
 Visualize Results of Predictive Analysis
-<br/>
-<br/>
+<br/><br/>
 PERSONAL SUCCESS MEASURES <br/>
 	1. Did I use data that I was interested in?
 	2. Did my model answer my questions to help me further understanding of the topic?
 	3. Did I further my understanding of data science techniques, cleansing data, filtering data, calculating data, plotting data?
 	4. Did I further my understanding of storytelling with data visualization techniques, using maplotlib style fivethirtyeight?
-
+<br/><br/>
 DATA SOURCE AND CITATION <br/>
 • Arvidsson, Joakim. Longevity Factors (2023): URL: https://www.kaggle.com/datasets/joebeachcapital/life-longevity-factors
