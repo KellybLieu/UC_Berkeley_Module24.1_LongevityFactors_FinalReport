@@ -26,7 +26,7 @@ The top science-backed positive longevity factors included:
 <li>Cancer avoidance</li>
 <br/>
 Gender-specific analysis required additional data cleaning and normalization. Results showed substantial overlap in top factors across genders, though some differences emerged: for men, “spending time with women” ranked #7, while for women, “having a dog” appeared in the top 10.
-<br/>
+<br/><br/>
 Key negative longevity factors were consistent across both genders, highlighting universal risks:
 <li>Mental illness</li>
 <li>Smoking</li>
