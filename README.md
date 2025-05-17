@@ -26,13 +26,13 @@ The top science-backed positive longevity factors included:
 <li>Cancer avoidance</li>
 <br/>
 Gender-specific analysis required additional data cleaning and normalization. Results showed substantial overlap in top factors across genders, though some differences emerged: for men, “spending time with women” ranked #7, while for women, “having a dog” appeared in the top 10.
-
+<br/>
 Key negative longevity factors were consistent across both genders, highlighting universal risks:
 <li>Mental illness</li>
 <li>Smoking</li>
 <li>Obesity</li>
 <li>Heavy alcohol use</li>
-
+<br/>
 These four factors had the greatest negative impact, with others trailing significantly.
 <br/><br/>
 
@@ -40,7 +40,7 @@ TECHNIQUES FOR CAPSTONE <br/>
 Exploratory Data Analysis (EAD) and Visualize Results<br/>
 Feature Engineering<br/>
 Build a Simple Model<br/>
-Fit and Train Multiple Models: linear regression, ridge, lasso, random forest, and gradient boosting<br/>
+Fit, Train, and Time Multiple Models: linear regression, ridge, lasso, random forest, and gradient boosting<br/>
 Compare and Choose the Best Model<br/>
 Perform Hyperparameter Tuning Using GridSearchCV<br/>
 Perform Optimization with Random Search<br/>
